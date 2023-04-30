@@ -41,14 +41,14 @@ Check if both video0 and video1 are detected
 Get c/c++ code to test
 ```
     $ cd D219-9dof/03-double-camera-display
-    #Build:
-    $mkdir build
-    $cd build
-    $cmake ..
-    $make
+    # Build:
+    $ mkdir build
+    $ cd build
+    $ cmake ..
+    $ make
 
     #Run:
-    $./double-camera-display
+    $ ./double-camera-display
 ```
 ## Tools
 Convert video to picture  
