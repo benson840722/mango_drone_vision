@@ -47,8 +47,8 @@ Get c/c++ code to test
     $make
 
     #Run:
-    $./double-camera-display```
-
+    $./double-camera-display
+```
 ## Tools
 Convert video to picture  
 * [video2pic](https://github.com/benson840722/video2pic)
