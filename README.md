@@ -26,7 +26,7 @@ Convert video to picture
 * [video2pic](https://github.com/benson840722/video2pic)
 
 YOLO txt to VOC format or json to YOLO txt  
-* [yolo2vic/json2txt](https://github.com/benson840722/yolotxt2voc-json2txt)  
+* [yolo2voc/json2txt](https://github.com/benson840722/yolotxt2voc-json2txt)  
 
 
 
