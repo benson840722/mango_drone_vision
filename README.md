@@ -12,9 +12,13 @@ This project is the vision part of the mango harvesting drone, using F450 and eq
 * [YOLO](https://github.com/AlexeyAB/darknet)  
   `$ git clone git@github.com:AlexeyAB/darknet.git`
 
-
+  Training on Jetson NX  
+* [Jetson-inference](https://github.com/dusty-nv/jetson-inference)  
+  `$ git clone git@github.com:dusty-nv/jetson-inference.git`    
+  
   Prepare your own dataset to label  
 
 * [label](https://github.com/heartexlabs/labelImg)  
   `$ git clone git@github.com:heartexlabs/labelImg.git`
 
+  
