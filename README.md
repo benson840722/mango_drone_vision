@@ -31,13 +31,25 @@ This project is the vision part of the mango harvesting drone, using F450 and eq
 * Power on Jetson Nx and open the Terminal (Ctrl+ALT+T)
 * Check the video devices with command:  
   `$ ls /dev/video*`  
+
 Check if both video0 and video1 are detected
   * Test video0  
   `$ video-viewer csi://0`
   * Test video1  
   `$ video-viewer csi://1`
 
-### Tools
+Get c/c++ code to test
+  `$ cd D219-9dof/03-double-camera-display
+    #Build:
+    $mkdir build
+    $cd build
+    $cmake ..
+    $make
+
+    #Run:
+    $./double-camera-display`
+
+## Tools
 Convert video to picture  
 * [video2pic](https://github.com/benson840722/video2pic)
 
