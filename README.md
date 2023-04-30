@@ -29,12 +29,12 @@ This project is the vision part of the mango harvesting drone, using F450 and eq
 * Connect the I2C interface (only the SDA and SCL pins are required) of the Camera to I2C interface of the Jetson Nx Developer Kit (the Pin3, and Pin5)
 ### Software setting
 * Power on Jetson Nx and open the Terminal (Ctrl+ALT+T)
-* Check the video devices with command:
+* Check the video devices with command:  
   `$ ls /dev/video*`  
 Check if both video0 and video1 are detected
-  * Test video0
+  * Test video0  
   `$ video-viewer csi://0`
-  * Test video1
+  * Test video1  
   `$ video-viewer csi://1`
 
 ### Tools
