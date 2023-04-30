@@ -39,7 +39,8 @@ Check if both video0 and video1 are detected
   `$ video-viewer csi://1`
 
 Get c/c++ code to test
-  ```$ cd D219-9dof/03-double-camera-display
+```
+    $ cd D219-9dof/03-double-camera-display
     #Build:
     $mkdir build
     $cd build
