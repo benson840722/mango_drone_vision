@@ -30,7 +30,7 @@ This project is the vision part of the mango harvesting drone, using F450 and eq
 ### Software setting
 * Power on Jetson Nx and open the Terminal (Ctrl+ALT+T)
 * Check the video devices with command:
-  `$ ls /dev/video*`
+  `$ ls /dev/video*`  
 Check if both video0 and video1 are detected
   * Test video0
   `$ video-viewer csi://0`
