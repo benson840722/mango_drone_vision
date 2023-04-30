@@ -22,10 +22,10 @@ This project is the vision part of the mango harvesting drone, using F450 and eq
   `$ git clone git@github.com:heartexlabs/labelImg.git`
 
 ### Tools
-  Convert video to picture  
-* [video2pic](https://github.com/benson840722/video2pic)  
+Convert video to picture  
+* [video2pic](https://github.com/benson840722/video2pic)
 
-  YOLO txt to VOC format or json to YOLO txt  
+YOLO txt to VOC format or json to YOLO txt  
 * [yolo2vic/json2txt](https://github.com/benson840722/yolotxt2voc-json2txt)  
 
 
