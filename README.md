@@ -1,5 +1,6 @@
 # mango_drone_vision
 This project is the vision part of the mango harvesting drone, using F450 and equipped with Jetson NX. We use two lenses, one is logic C922 webcam and stereo camera IMX219-83
+---
 ## Device
 * Jetson NX
 * Pixhawk 2.4.8
@@ -7,3 +8,5 @@ This project is the vision part of the mango harvesting drone, using F450 and eq
 * Logic c922 webcam
 * Stereo camera IMX219-83
 ---
+## Training your own model
+[YOLO](https://github.com/AlexeyAB/darknet)
