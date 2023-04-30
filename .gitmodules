@@ -1,3 +1,6 @@
 [submodule "python_stereo_camera_calibrate"]
 	path = python_stereo_camera_calibrate
 	url = git@github.com:benson840722/python_stereo_camera_calibrate.git
+[submodule "tensorrt_demos"]
+	path = tensorrt_demos
+	url = git@github.com:benson840722/tensorrt_demos.git
