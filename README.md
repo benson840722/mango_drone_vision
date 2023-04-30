@@ -38,7 +38,7 @@ Check if both video0 and video1 are detected
   * Test video1  
   `$ video-viewer csi://1`
 
-Get c/c++ code to test
+* Test the IMX219-83 stereo camera
 ```
     $ cd D219-9dof/03-double-camera-display
     
@@ -51,6 +51,13 @@ Get c/c++ code to test
     #Run:
     $ ./double-camera-display
 ```
+* If you find that the image captured is red. You can try to copy .isp file to nvidia setting:
+```
+  $ sudo cp camera_overrides.isp /var/nvidia/nvcam/settings/
+  $ sudo chmod 664 /var/nvidia/nvcam/settings/camera_overrides.isp
+  $ sudo chown root:root /var/nvidia/nvcam/settings/camera_overrides.isp
+```
+---
 ## Tools
 Convert video to picture  
 * [video2pic](https://github.com/benson840722/video2pic)
