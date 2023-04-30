@@ -15,6 +15,6 @@ This project is the vision part of the mango harvesting drone, using F450 and eq
 
   Prepare your own dataset to label  
 
-* [label](https://github.com/heartexlabs/labelImg)
+* [label](https://github.com/heartexlabs/labelImg)  
   `git clone git@github.com:heartexlabs/labelImg.git`
 
