@@ -10,7 +10,7 @@ This project is the vision part of the mango harvesting drone, using F450 and eq
 ---
 ## Training your own model
 * [YOLO](https://github.com/AlexeyAB/darknet)
-    git clone git@github.com:AlexeyAB/darknet.git
+`git clone git@github.com:AlexeyAB/darknet.git`
 Prepare your own data set to label
 * [label](https://github.com/heartexlabs/labelImg)
-    git clone git@github.com:heartexlabs/labelImg.git
+`git clone git@github.com:heartexlabs/labelImg.git`
