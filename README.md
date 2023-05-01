@@ -42,7 +42,6 @@ $ make
 $ cd ${HOME}/project/tensorrt_demos/yolo
 $ pytohn3 yolo_to_onnx.py -m fake_mango_3000pics/yolov4-tiny
 $ pytohn3 onnx_to_tensorrrt.py -m fake_mango_3000pics/yolov4-tiny
-
 ```
 5. Test the TensorRT "yolov4-tiny" engine with the " "
 ## IMX219-83 Stereo Camera
