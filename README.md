@@ -23,8 +23,7 @@ This project is the vision part of the mango harvesting drone, using F450 and eq
 ---
 ## Convert YOLO weight to onnx/trt format
 * [Tensorrt_demos](https://github.com/benson840722/tensorrt_demos) 
-
-`$ git clone git@github.com:benson840722/tensorrt_demos.git`
+  `$ git clone git@github.com:benson840722/tensorrt_demos.git`
 1. install "pycuda"
 ```
 $ cd ${HOME}/project/tensorrt_demos/yolo
