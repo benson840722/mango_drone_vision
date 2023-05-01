@@ -29,10 +29,22 @@ This project is the vision part of the mango harvesting drone, using F450 and eq
 $ cd ${HOME}/project/tensorrt_demos/yolo
 $ ./install_pycuda.sh
 ```
-2. install onnx  
+2. install onnx
 `$ sudo pip3 install onnx==1.9.0`
 
+3. Go to the "plugins/" subdirectory and build the "yolo_layer" plugin. When done, a "libyolo_layer.so" would be generated.
+``` 
+$ cd ${HOME}/project/tensorrt_demos/plugins
+$ make
+```
+4. Convert the targeted model to ONNX and then to TensorRT engine.
+```
+$ cd ${HOME}/project/tensorrt_demos/yolo
+$ pytohn3 yolo_to_onnx.py -m fake_mango_3000pics/yolov4-tiny
+$ pytohn3 onnx_to_tensorrrt.py -m fake_mango_3000pics/yolov4-tiny
 
+```
+5. Test the TensorRT "yolov4-tiny" engine with the " "
 ## IMX219-83 Stereo Camera
 
 ### Hardware connection
