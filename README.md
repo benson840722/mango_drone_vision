@@ -52,7 +52,8 @@ $ python3 trt_yolo.py --image file1.jpg --model fake_mano_3000pics/yolov4-tiny
 $ cd ${HOME}/project/tensorrt_demos
 $ python3 trt_yolo.py --video 1.mp4 --model fake_mano_3000pics/yolov4-tiny
 ```
-6. Test the TensorRT "yolov4-tiny" engine with the live stream  
+6. Test the TensorRT "yolov4-tiny" engine with the live stream
+
 `$ python3 trt_yolo.py --usb 0 --model fake_mano_3000pics/yolov4-tiny`
 
 ## IMX219-83 Stereo Camera
