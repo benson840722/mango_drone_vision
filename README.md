@@ -22,7 +22,7 @@ This project is the vision part of the mango harvesting drone, using F450 and eq
   `$ git clone git@github.com:heartexlabs/labelImg.git`
 ---
 ## Convert YOLO weight to onnx/trt format
-* [Tensorrt_demos]( git clone https://github.com/jkjung-avt/tensorrt_demos.git)  
+* [Tensorrt_demos](https://github.com/benson840722/tensorrt_demos) 
 
 ## IMX219-83 Stereo Camera
 
