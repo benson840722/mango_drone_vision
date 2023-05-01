@@ -43,7 +43,18 @@ $ cd ${HOME}/project/tensorrt_demos/yolo
 $ pytohn3 yolo_to_onnx.py -m fake_mango_3000pics/yolov4-tiny
 $ pytohn3 onnx_to_tensorrrt.py -m fake_mango_3000pics/yolov4-tiny
 ```
-5. Test the TensorRT "yolov4-tiny" engine with the " "
+5. Test the TensorRT "yolov4-tiny" engine with the " file1.jpg" and "1.mp4".
+```
+#image
+$ cd ${HOME}/project/tensorrt_demos
+$ python3 trt_yolo.py --image file1.jpg --model fake_mano_3000pics/yolov4-tiny
+#video
+$ cd ${HOME}/project/tensorrt_demos
+$ python3 trt_yolo.py --video 1.mp4 --model fake_mano_3000pics/yolov4-tiny
+```
+6. Test the TensorRT "yolov4-tiny" engine with the live stream
+`$ python3 trt_yolo.py --usb 0 --model fake_mano_3000pics/yolov4-tiny`
+
 ## IMX219-83 Stereo Camera
 
 ### Hardware connection
